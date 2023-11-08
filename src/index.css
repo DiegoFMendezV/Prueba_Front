@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
-
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body{
@@ -27,12 +27,25 @@ a{
   color: white;
 }
 
-nav .items a{
-  margin: 0 20px;
+.responsive{
+  display: flex;
+  align-items: center;
+}
+
+.responsive .languages{
+  margin: 0 30px;
+}
+
+.responsive .items{
+  margin-top: 30px;
+}
+
+.responsive .items a{
+  margin: 20px 20px;
 }
 
 .selected,
-nav .items a:hover {
+.responsive .items a:hover {
   border-bottom: 3px solid #92FFE6;
   padding-bottom: 3px;
 }
@@ -67,9 +80,145 @@ nav .languages a:hover{
 .titles{
   color: white;
   padding: 30px;
+  text-align: center;
 }
 
 .titles h3{
   font-size: 30px;
-  font-weight: 100;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+}
+
+.titles h1{
+  font-size: 70px;
+}
+
+.menu{
+  display: none;
+  cursor: pointer;
+}
+
+.images{
+  position: relative;
+}
+
+.images #clothe{
+  position: absolute;
+  max-width: 100%;
+  width: 50%;
+  margin: -5% 25%;
+}
+
+.images #id{
+  position: absolute;
+  max-width: 100%;
+  width: 25%;
+  margin: 18% 0;
+}
+
+.images #shooting{
+  position: absolute;
+  max-width: 100%;
+  width: 15%;
+  margin: 10% 20%;
+}
+
+.images #edit{
+  position: absolute;
+  max-width: 100%;
+  width: 15%;
+  margin: 25% 40%;
+}
+
+.images #inform{
+  position: absolute;
+  max-width: 100%;
+  width: 15%;
+  margin: 9% 68%;
+}
+
+.images #map{
+  position: absolute;
+  max-width: 100%;
+  width: 25%;
+  margin: 15% 75%;
+}
+
+.images #key{
+  position: absolute;
+  max-width: 100%;
+  width: 15%;
+  margin: 25% 22%;
+}
+
+.images #pictures{
+  position: absolute;
+  max-width: 100%;
+  width: 15%;
+  margin: 25% 60%;
+}
+
+@media screen and (max-width: 960px) {
+  .menu{
+    display: flex;
+    color: #92FFE6;
+    font-size: 40px;
+  }
+
+  nav .responsive{
+    width: 70%;
+    height: 40vh;
+    position: absolute;
+    top: 8%;
+    right: 0;
+    transition: 0.5s all ease-in;
+    background-color: #142e3d;
+    padding: 20px;
+    display: block;
+    height: 0vh;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .5s ease;
+  }
+
+  nav .responsive.isActive{
+    height: 40vh;
+    opacity: 1;
+  }
+
+  nav .items a{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .responsive .languages{
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .responsive .boton_wp{
+    margin-left: 20px;
+    width: 120px;
+    height: 35px;
+  }
+
+  .responsive .boton_wp a{
+    font-size: 12px;
+  }
+
+  .image_wp{
+    width: 15px;
+  }
+
+}
+
+@media screen and (max-width: 510px){
+  .titles h3{
+    font-size: 20px;
+  }
+
+  .titles h1{
+    font-size: 50px;
+  }
 }
