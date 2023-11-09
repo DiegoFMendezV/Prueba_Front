@@ -87,6 +87,10 @@
       #contacto h1{
         text-align: center;
       }
+
+      #contacto .image_world img{
+        margin-left: 15%;
+      }
     
       .formu .content_1 .content_11 input{
         width: 120px;

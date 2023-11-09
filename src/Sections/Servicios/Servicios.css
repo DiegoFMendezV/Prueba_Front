@@ -72,6 +72,14 @@
   }
 
   @media screen and (max-width: 960px) {
+    #servicios{
+      margin-left: 5%;
+    }
+    
+    #servicios h1{
+      margin-top: 400px;
+    }
+
     .icons{
         display: grid;
         grid-template-columns: 50% 50%
@@ -85,6 +93,11 @@
     
       .carrusel .content{
         width: 60%;
+      }
+
+      .carrusel .content p{
+        text-align: justify;
+        width: 230px;
       }
     
       .carrusel .content .boton_wp{

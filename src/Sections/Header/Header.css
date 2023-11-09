@@ -232,6 +232,15 @@ body{
     .image_wp{
       width: 15px;
     }
+
+    .titles{
+      margin-left: 10%;
+    }
+
+    .images{
+      margin-left: 12%;
+      margin-top: 5%;
+    }
   
   }
   

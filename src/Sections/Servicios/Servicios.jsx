@@ -4,7 +4,7 @@ import { MdComputer, MdTabletAndroid, MdLightbulbOutline } from "react-icons/md"
 import { LuPencil } from "react-icons/lu";
 import { HiOutlineChartPie } from "react-icons/hi";
 import { BiLike } from "react-icons/bi";
-// import Carousel from '../Components/Carousel';
+// import Carousel from '../../Components/Carousel';
 import './Servicios.css'
 
 function Servicios() {
@@ -40,6 +40,7 @@ function Servicios() {
                 </div>
                 <hr />
                 <div className="carrusel">
+                    {/* <Carousel /> */}
                     <img className="img_web" src="./images/image_web.png" alt="" />
                     <div className="content">
                         <h4>Website</h4>
