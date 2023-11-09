@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, {useState} from "react";
 import { FaBars, FaAngleLeft, FaAngleRight } from "react-icons/fa";
+import './Header.css'
 
 function Header() {
     const [ menu , setMenu ] = useState (false)

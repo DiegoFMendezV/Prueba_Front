@@ -1,0 +1,98 @@
+#servicios h1{
+    color: black;
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 28px;
+    margin-top: 650px;
+  }
+  
+  #servicios hr{
+    width: 70%;
+    margin: auto;
+    margin-top: 5px;
+  }
+  
+  .icons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #727272;
+  }
+  
+  .icons svg{
+    font-size: 50px;
+  }
+  
+  .icons .item{
+    margin: 0 50px;
+    cursor: pointer;
+  }
+  
+  .icons .item:hover{
+    color: #3a7c6e;
+  }
+  
+  .icons .item p{
+    font-weight: 800;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+  }
+  
+  .carrusel{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carrusel .img_web{
+    width: 30%;
+    margin: 5% 5% 5% 0;
+  }
+  
+  .carrusel .content{
+    width: 30%;
+    margin: 5% 5% 5% 0; 
+  }
+  
+  .carrusel .content h4{
+    font-size: 22px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    margin-bottom: 5%;
+  }
+  
+  .carrusel .content p{
+    color: #898989;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  @media screen and (max-width: 960px) {
+    .icons{
+        display: grid;
+        grid-template-columns: 50% 50%
+      }
+    
+      .carrusel{
+        display: block;
+        width: 100%;
+        margin: 0 15%
+      }
+    
+      .carrusel .content{
+        width: 60%;
+      }
+    
+      .carrusel .content .boton_wp{
+        margin-left: 15%;
+      }
+    
+      .carrusel .img_web{
+        width: 50%;
+        margin-left: 10%;
+        }
+  }

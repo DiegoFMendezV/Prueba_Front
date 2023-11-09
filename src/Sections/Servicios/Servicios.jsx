@@ -5,6 +5,7 @@ import { LuPencil } from "react-icons/lu";
 import { HiOutlineChartPie } from "react-icons/hi";
 import { BiLike } from "react-icons/bi";
 // import Carousel from '../Components/Carousel';
+import './Servicios.css'
 
 function Servicios() {
     return (

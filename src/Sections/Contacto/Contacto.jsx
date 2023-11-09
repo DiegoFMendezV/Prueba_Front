@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import Form from "../Components/Form";
-
+import Form from "../../Components/Form";
+import './Contacto.css'
 
 function Contacto() {
     return (

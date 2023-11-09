@@ -1,9 +1,9 @@
-import Header from './Sections/Header';
-import Servicios from './Sections/Servicios';
-import Equipo from './Sections/Equipo';
-import Clientes from './Sections/Clientes';
-import Contacto from './Sections/Contacto';
-import Footer from './Sections/Footer';
+import Header from './Sections/Header/Header';
+import Servicios from './Sections/Servicios/Servicios';
+import Equipo from './Sections/Equipo/Equipo';
+import Clientes from './Sections/Clientes/Clientes';
+import Contacto from './Sections/Contacto/Contacto';
+import Footer from './Sections/Footer/Footer';
 
 function App() {
   return (
