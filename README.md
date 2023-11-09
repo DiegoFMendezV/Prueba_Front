@@ -24,6 +24,7 @@ El proyecto estará alojado en GitHub para su consulta a través del siguiente [
 Desarrollador Junior
 
 DIEGO FERNANDO MENDEZ VARGAS
+
 3115913254
 
 diego.mendez7716@gmail.com

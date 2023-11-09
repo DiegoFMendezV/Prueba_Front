@@ -16,10 +16,10 @@ function Header() {
                 </div>
                 <div className={ `responsive ${ menu ? 'isActive' : '' }` }>
                     <div className="items">
-                        <a href="#">Nuestros Servicios</a>
-                        <a href="#">Proyectos</a>
-                        <a href="#">Equipo</a>
-                        <a href="#">Contáctanos</a>
+                        <a href="#servicios">Nuestros Servicios</a>
+                        <a href="#clientes">Proyectos</a>
+                        <a href="#equipo">Equipo</a>
+                        <a href="#contacto">Contáctanos</a>
                     </div>
                     <div className="languages">
                         <a href="#">Inglés</a>
