@@ -2,9 +2,9 @@
 
 Proyecto realizado con el fin de presentar prueba técnica para el puesto de Desarrollador Frontend Junior de la empresa SolucionSoft.
 
-La prueba consite en maquetar de manera completa el Home de acuerdo con el diseño propuesto (Figma) validando cada uno de sus componentes, tamaños, grillas, colores, fuentes, imágenes, etc.
+La prueba consiste en maquetar de manera completa el Home de acuerdo con el diseño propuesto (Figma) validando cada uno de sus componentes, tamaños, grillas, colores, fuentes, imágenes, etc.
 
-# Herramientas
+# HERRAMIENTAS
 
 Se desarrollo mediante la tecnología REACT.
 
@@ -22,7 +22,10 @@ El proyecto estará alojado en GitHub para su consulta a través del siguiente [
 # AUTOR
 
 Desarrollador Junior
+
 DIEGO FERNANDO MENDEZ VARGAS
 3115913254
+
 diego.mendez7716@gmail.com
+
 https://www.linkedin.com/in/diego-fernando-mendez-vargas/
