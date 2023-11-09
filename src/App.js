@@ -1,3 +1,4 @@
+import Clientes from './Sections/Clientes';
 import Equipo from './Sections/Equipo';
 import Header from './Sections/Header';
 import Servicios from './Sections/Servicios';
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Servicios />
       <Equipo />
+      <Clientes/>
     </div>
   );
 }

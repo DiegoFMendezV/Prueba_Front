@@ -326,7 +326,34 @@ nav .languages a:hover{
   color: #92FFE6 !important;
   font-weight: 800;
   margin: 20px 0;
+}
 
+#clientes h1{
+  font-size: 28px;
+  font-weight: 700;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  margin: 5% 0 2% 0;
+}
+
+#clientes .logos{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#clientes .logos img{
+  width: 10%;
+}
+
+#clientes hr{
+  width: 70%;
+  height: 3px;
+  margin: 2% auto;
+  margin-top: 5px;
+  background-color: #3a7c6e;
 }
 
 @media screen and (max-width: 960px) {
@@ -424,6 +451,15 @@ nav .languages a:hover{
   .nuestro_equipo .content_2 .hombre{
     width: 20%;
     margin: 25% 55%;
+  }
+
+  #clientes .logos{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+
+  #clientes .logos img{
+    width: 100%;
   }
 }
 
