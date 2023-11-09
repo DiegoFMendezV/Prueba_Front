@@ -434,12 +434,6 @@ nav .languages a:hover{
   margin-bottom: 30px;
 }
 
-.formu .content_2 .pencil{
-  width: 5%;
-  position: absolute;
-  margin: 0 39%;
-}
-
 .enviar{
   width: 166px;
   height: 40px;
@@ -454,6 +448,40 @@ nav .languages a:hover{
 
 .enviar:hover{
   transform:  scale(1.1)
+}
+
+#footer{
+  background-image: url(../public/images/Rectangle.jpg);
+}
+
+#footer .content_footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding: 50px;
+}
+
+#footer .content_footer .item_footer p{
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Quicksand', sans-serif;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+#footer .content_footer .item_footer span{
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Quicksand', sans-serif;
+  color: #58B59F;
+  margin-bottom: 5px;
+}
+
+.logo_wp{
+  width: 70px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 960px) {
@@ -578,6 +606,20 @@ nav .languages a:hover{
     width: 100%;
     margin: auto;
   }
+
+  #footer .content_footer{
+    display: block;
+  }
+
+  #footer .content_footer .item_footer{
+    margin-bottom: 15px;
+  }
+
+  #footer .content_footer .item_footer img{
+    margin: 5px 35%;
+  }
+
+  
 }
 
 @media screen and (max-width: 510px){

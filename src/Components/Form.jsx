@@ -17,7 +17,6 @@ function Form() {
                 <div className="content_2">
                     <label for="idea">Cuéntanos tu idea</label>
                     <textarea placeholder="..." rows="3"></textarea>
-                    <img className="pencil" src="./images/EDIT.png" alt="" />
                 </div>
                 <button type="submit" className="enviar">Enviar</button>
             </form>
