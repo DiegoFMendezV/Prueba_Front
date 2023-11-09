@@ -64,6 +64,10 @@ a{
   gap: 10px;
 }
 
+.boton_wp:hover{
+  transform:  scale(1.1)
+}
+
 .image_wp{
   width: 20px;
 }
@@ -167,12 +171,20 @@ nav .languages a:hover{
   cursor: pointer;
 }
 
+.left:hover{
+  transform:  scale(1.1)
+}
+
 .right{
   position: absolute;
   color: white;
   font-size: 40px;
   margin: 0 85%;
   cursor: pointer;
+}
+
+.right:hover{
+  transform:  scale(1.1)
 }
 
 #servicios h1{
@@ -338,7 +350,7 @@ nav .languages a:hover{
 
 #clientes .logos{
   width: 80%;
-  margin: auto;
+  margin: 30px auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -354,6 +366,94 @@ nav .languages a:hover{
   margin: 2% auto;
   margin-top: 5px;
   background-color: #3a7c6e;
+}
+
+#contacto{
+  width: 70%;
+  margin: auto;
+  position: relative;
+  display: flex;
+}
+
+
+#contacto h1{
+  font-size: 28px;
+  font-weight: 700;
+  font-family: 'Quicksand', sans-serif;
+  margin: 30px 0;
+}
+
+#contacto .image_world img{
+  width: 80%;
+  margin: 0 30%;
+}
+
+.formu{
+  width: 100%;
+}
+
+.formu .content_1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.formu .content_1 .content_11{
+  display: grid;
+  margin-bottom: 30px;
+  margin: 0 20px 20px 0;
+}
+
+.formu .content_1 .content_11 label{
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 10px;
+}
+
+.formu .content_1 .content_11 input{
+  border: none;
+  border-bottom: 1px solid #C8C8C8;
+  width: 200px;
+  padding: 5px;
+}
+
+.formu .content_2{
+  display: grid;
+}
+
+.formu .content_2 label{
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 10px;
+}
+
+.formu .content_2 textarea{
+  padding: 8px;
+  border: 1px solid #C8C8C8;
+  margin-bottom: 30px;
+}
+
+.formu .content_2 .pencil{
+  width: 5%;
+  position: absolute;
+  margin: 0 39%;
+}
+
+.enviar{
+  width: 166px;
+  height: 40px;
+  background-color: #3a7c6e;
+  border: 1px solid #3a7c6e;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.enviar:hover{
+  transform:  scale(1.1)
 }
 
 @media screen and (max-width: 960px) {
@@ -460,6 +560,23 @@ nav .languages a:hover{
 
   #clientes .logos img{
     width: 100%;
+  }
+
+  #contacto{
+    display: block;
+  }
+
+  #contacto h1{
+    text-align: center;
+  }
+
+  .formu .content_1 .content_11 input{
+    width: 120px;
+  }
+
+  .enviar{
+    width: 100%;
+    margin: auto;
   }
 }
 
