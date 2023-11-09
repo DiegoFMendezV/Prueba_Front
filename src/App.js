@@ -1,3 +1,4 @@
+import Equipo from './Sections/Equipo';
 import Header from './Sections/Header';
 import Servicios from './Sections/Servicios';
 
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <Header />
       <Servicios />
+      <Equipo />
     </div>
   );
 }

@@ -52,7 +52,6 @@ function Servicios() {
                         </div>
                     </div>
                 </div>
-
             </section>
         </div>
     )

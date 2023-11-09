@@ -248,6 +248,87 @@ nav .languages a:hover{
   font-weight: 500;
 }
 
+#equipo{
+  background-image: url(../public/images/Rectangle.jpg);
+}
+
+.nuestro_equipo{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.nuestro_equipo .content_1{
+  display: flex;
+  position: relative;
+}
+
+.nuestro_equipo .content_2{
+  display: flex;
+}
+
+.nuestro_equipo .content_1 .cohete{
+  position: absolute;
+  max-width: 100%;
+  width: 50%;
+  margin: -5% 8%;
+}
+
+.nuestro_equipo .content_1 .content_11{
+  width: 30%;
+  margin: 5% 10% 5% 50%;
+}
+
+.nuestro_equipo .content_1 .content_11 h1{
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
+  color: #92FFE6;
+  margin-bottom: 5px;
+}
+
+.nuestro_equipo .content_1 .content_11 p{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Quicksand', sans-serif;
+  color: #FAFAFA;
+  width: 120%;
+}
+
+.nuestro_equipo .content_2 .mujer{
+  position: absolute;
+  max-width: 100%;
+  width: 10%;
+  margin: 8% 0%;
+}
+
+.nuestro_equipo .content_2 .hombre{
+  position: absolute;
+  max-width: 100%;
+  width: 10%;
+  margin: 8% 20%;
+}
+
+.nuestro_equipo .content_2 ul{
+  color: #FAFAFA;
+  list-style: none;
+  max-width: 100%;
+  margin: 5% 18%;
+}
+
+.nuestro_equipo .content_2 ul li{
+  color: #FAFAFA;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.nuestro_equipo .content_2 ul #especialistas{
+  color: #92FFE6 !important;
+  font-weight: 800;
+  margin: 20px 0;
+
+}
+
 @media screen and (max-width: 960px) {
   .menu{
     display: flex;
@@ -303,6 +384,47 @@ nav .languages a:hover{
     width: 15px;
   }
 
+  .icons{
+    display: grid;
+    grid-template-columns: 50% 50%
+  }
+
+  .carrusel{
+    display: block;
+    width: 100%;
+    margin: 0 15%
+  }
+
+  .carrusel .content{
+    width: 60%;
+  }
+
+  .carrusel .content .boton_wp{
+    margin-left: 15%;
+  }
+
+  .carrusel .img_web{
+    width: 50%;
+    margin-left: 10%;
+    }
+
+  .nuestro_equipo{
+    display: block;
+  }
+
+  .nuestro_equipo .content_2{
+    margin: 0 15%;
+  }
+
+  .nuestro_equipo .content_2 .mujer{
+    width: 20%;
+    margin: 25% -5%;
+  }
+
+  .nuestro_equipo .content_2 .hombre{
+    width: 20%;
+    margin: 25% 55%;
+  }
 }
 
 @media screen and (max-width: 510px){
@@ -314,8 +436,9 @@ nav .languages a:hover{
     font-size: 50px;
   }
 
-
-
+  .nuestro_equipo .content_1 .content_11 p{
+    font-size: 12px;
+  }
 }
 
 
